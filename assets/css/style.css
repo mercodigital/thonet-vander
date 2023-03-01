@@ -38,7 +38,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica", sans-serif;
   color: #252525;
-  line-height: 1.4;
+  line-height: 0.9;
   font-weight: 700;
 }
 
@@ -2949,12 +2949,12 @@ footer {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #222131;
-  opacity: .60;
+  background-color: #000000;
+  opacity: .70;
 }
 
 .subscribe-area .subscribe-item {
-  max-width: 600px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -2986,6 +2986,7 @@ footer {
   padding-left: 25px;
   font-size: 15px;
   border: 0;
+  margin-bottom: 20px;
 }
 
 .subscribe-area .subscribe-item .newsletter-form .form-control:focus {
