@@ -60,12 +60,12 @@
 
 .switch-box input:checked + .slider {
   background-color: transparent;
-  border: 1.5px solid #f7fc00;
+  border: 1.5px solid #ffec00;
 }
 
 .switch-box input:focus + .slider {
-  -webkit-box-shadow: 0 0 1px #f7fc00;
-          box-shadow: 0 0 1px #f7fc00;
+  -webkit-box-shadow: 0 0 1px #ffec00;
+          box-shadow: 0 0 1px #ffec00;
 }
 
 .switch-box input:checked + .slider:before {
@@ -91,7 +91,7 @@
 }
 
 .theme-dark h3 a:hover {
-  color: #f7fc00 !important;
+  color: #ffec00 !important;
 }
 
 .theme-dark span {
@@ -137,11 +137,11 @@
 }
 
 .theme-dark .main-nav nav .navbar-nav .nav-item a:hover {
-  color: #f7fc00 !important;
+  color: #ffec00 !important;
 }
 
 .theme-dark .main-nav nav .navbar-nav .nav-item a.active {
-  color: #f7fc00 !important;
+  color: #ffec00 !important;
 }
 
 .theme-dark .main-nav nav .navbar-nav .nav-item .dropdown-menu {
@@ -153,11 +153,11 @@
 }
 
 .theme-dark .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #f7fc00 !important;
+  color: #ffec00 !important;
 }
 
 .theme-dark .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover {
-  color: #f7fc00 !important;
+  color: #ffec00 !important;
 }
 
 .theme-dark .main-nav.two nav .navbar-nav .nav-item a {
@@ -215,7 +215,10 @@
 .theme-dark .service-area .service-shape img {
   opacity: 0.1;
 }
+.theme-dark .video-area {
+  background-color: #252525
 
+}
 .theme-dark .service-item, .theme-dark .feature-item {
   background-color: #0e0e0e;
 }
@@ -359,7 +362,7 @@
 }
 
 .theme-dark .widget-area .cat ul li a:hover {
-  color: #f7fc00;
+  color: #ffec00;
 }
 
 .theme-dark .widget-area .recent .recent-inner ul li a {
@@ -369,7 +372,7 @@
 }
 
 .theme-dark .widget-area .recent .recent-inner ul li a:hover {
-  color: #f7fc00;
+  color: #ffec00;
 }
 
 .theme-dark .widget-area .tags ul li a {
@@ -379,7 +382,7 @@
 }
 
 .theme-dark .widget-area .tags ul li a:hover {
-  color: #f7fc00;
+  color: #ffec00;
 }
 
 .theme-dark .mind-area, .theme-dark .talk-area {
@@ -416,8 +419,8 @@
 }
 
 .theme-dark .user-form-area .user-content .user-content-inner .bottom p a {
-  color: #f7fc00;
-  border-color: #f7fc00;
+  color: #ffec00;
+  border-color: #ffec00;
 }
 
 .theme-dark .user-form-area .user-content .user-content-inner .bottom p a:hover {

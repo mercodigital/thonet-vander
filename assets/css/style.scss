@@ -1,5 +1,5 @@
 /*
-@File: Dilx Template Style
+@File: Thonet & Vander Template Style
 
 * This file contains the styling for the actual template, this
 is the file you need to edit to change the look of the
@@ -35,7 +35,7 @@ $all-size: 16px;
 $transition: .5s all ease;
 $black-color: #252525;
 $grey-color: #565353;
-$blue-color: #f7fc00;
+$blue-color: #ffec00;
 $white-color: #fff;
 
 /*----- Default CSS -----*/
@@ -148,7 +148,7 @@ button {
                     border: 0;
 
                     li {
-                        border-bottom: 1px dashed #f7fc002e;
+                        border-bottom: 1px dashed #ffec002e;
 
                         &:last-child {
                             border-bottom: 0;
@@ -477,7 +477,7 @@ button {
 .cmn-btn {
     display: inline-block;
     color: $white-color;
-    background-color: $blue-color;
+    background-color: #252525;
     border-radius: 30px;
     padding-right: 28px;
     padding-left: 32px;
@@ -890,7 +890,7 @@ button {
         }
         .cmn-btn {
             color: $blue-color;
-            background-color: $white-color;
+            background-color: #252525;
 
             &:hover {
                 color: $white-color;
@@ -1781,7 +1781,7 @@ footer {
         .cmn-btn {
             color: $blue-color;
             border: 1px solid $white-color;
-            background-color: $white-color;
+            background-color: #252525;
 
             &:hover {
                 border: 1px solid $black-color;
@@ -1819,7 +1819,7 @@ footer {
         }
         .cmn-btn {
             color: $blue-color;
-            background-color: $white-color;
+            background-color: #252525;
 
             &:hover {
                 color: $white-color;
@@ -2657,7 +2657,7 @@ footer {
         margin-top: 80px;
 
         span {
-            color: #f7fc00;
+            color: #ffec00;
             background-color: #d9e3ff;
             padding: 8px 25px;
             border-radius: 30px;
