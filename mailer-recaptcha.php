@@ -34,7 +34,6 @@
 		$email = $_POST['email'];
 		$phone = $_POST['phone'];
 		$cargo = $_POST['cargo'];
-
 		$message = $_POST['message'];
 		
 		
@@ -91,7 +90,7 @@
 		
 			?>
 			<script type="text/javascript">
-			window.location.href = 'https://gimnasios.Thonet & Vanderdeporte.com/gracias.html';
+			window.location.href = 'https://b2b.thonet-vander.com/gracias.html';
 			</script>
 			<?php
 		} else { 
