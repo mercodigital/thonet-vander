@@ -33,7 +33,7 @@
 		$email = $_POST['email'];
 		$phone = $_POST['phone'];
 		$cargo = $_POST['cargo'];
-		$message = $_POST['message'];
+		$consulta = $_POST['consulta'];
 		
 		
 		
@@ -50,7 +50,7 @@
 			Email: $email 
 			Telefono: $phone
 			Cargo: $cargo
-			Mensaje: $message 
+			Consulta: $consulta 
 
 		
 			";
