@@ -3,8 +3,7 @@
  ini_set('display_errors', 1);
  
 
-        $your_email = ' mm@thonet-vandere.com';
-		$encopia = 'leads@mercodigital.com';
+        $your_email = 'hexamorphical@gmail.com';
 		$encopia = 'soporte@mercodigital.com';
 		$captcha= $_POST['g-recaptcha-response'];
 		
@@ -77,7 +76,7 @@
 
 	//	mail("doppiattemail@gmail.com", $subject, $message, $headers); 
 
-		
+
 		
 
 		
@@ -93,9 +92,9 @@
 			window.location.href = 'https://b2b.thonet-vander.com/gracias.html';
 			</script>
 			<?php
-		} else { 
-			echo "<p>El mail no pudo ser enviado. Completá los datos sin errores!</p>"; 
 		} 
+		
+		else { echo "<p>El mail no pudo ser enviado. Completá los datos sin errores!</p>"; } 
 
             
             

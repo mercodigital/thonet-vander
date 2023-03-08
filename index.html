@@ -27,6 +27,8 @@
         <link rel="stylesheet" href="assets/css/responsive.css">
         <!-- Theme Dark CSS -->
         <link rel="stylesheet" href="assets/css/theme-dark.css">
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+
 
         <title>Thonet & Vander - Distribuidores b2b</title>
         
@@ -34,7 +36,7 @@
     </head>
     <body>
         <!-- Preloader -->
-        <div class="loader">
+<!--         <div class="loader">
             <div class="d-table">
                 <div class="d-table-cell">
                     <div class="spinner">
@@ -46,7 +48,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- End Preloader -->
 
         <!-- Start Navbar Area -->
@@ -299,7 +301,7 @@
             <div class="container">
                 <div class="subscribe-item">
 
-                    <div class="Contacto-area ptb-100">
+                    <div class="contact-area ptb-100">
                         <div class="container">
                             <div class="section-title two" style="background-color: rgba(0, 0, 0, 0.534); padding: 60px; border-radius: 25px;  margin: 0 auto;">
                                 <div class="row">
@@ -311,7 +313,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <form id="ContactoForm" method="post" action="mailer-recaptcha.php">
+                            <form method="post" action="mailer-recaptcha.php">
                                 <div class="row">
                                     <div class="col-sm-6 col-lg-6">
                                         <div class="form-group">
@@ -362,12 +364,8 @@
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
+                                    <div  class="g-recaptcha"  data-sitekey="6LdWFuQkAAAAAC8b4IDVZXDYHj_pcoDVqPqBKXIP"></div>
 
-                                    <div class="col-md-12 col-lg-12">
-                                       
-                                            <div  class="g-recaptcha"   style="border-radius: 25px;"  data-sitekey="6LdWFuQkAAAAAC8b4IDVZXDYHj_pcoDVqPqBKXIP"></div>
-                                     
-                                    </div>
                                     <div class="col-md-12 col-lg-12" style="margin-top: 80px;">
                                         <button type="submit" class="btn cmn-btn"  style="color:black; zoom: 120%; box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;">
                                             Enviar
@@ -377,6 +375,8 @@
                                         <div class="clearfix"></div>
                                     </div>
                                 </div>
+                                
+
                             </form>
                         </div>
                     </div>
@@ -706,10 +706,6 @@
         <!-- Essential JS -->
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/bootstrap.bundle.min.js"></script>
-        <!-- Form Validator JS -->
-        <script src="assets/js/form-validator.min.js"></script>
-        <!-- Contacto JS -->
-        <script src="assets/js/Contacto-form-script.js"></script>
         <!-- Ajax Chip JS -->
         <script src="assets/js/jquery.ajaxchimp.min.js"></script>
         <!-- Meanmenu JS -->
@@ -728,6 +724,5 @@
         <!-- Custom JS -->
         <script src="assets/js/custom.js"></script>
         <!-- Recaptcha JS -->
-        <script src='https://www.google.com/recaptcha/api.js'></script>
     </body>
 </html>
