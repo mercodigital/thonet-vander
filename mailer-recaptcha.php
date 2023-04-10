@@ -32,7 +32,7 @@
 		$name = $_POST['name'];
 		$email = $_POST['email'];
 		$phone = $_POST['phone'];
-		$cargo = $_POST['cargo'];
+		$rubro = $_POST['rubro'];
 		$consulta = $_POST['consulta'];
 		
 		
@@ -49,7 +49,7 @@
 			Nombre: $name 
 			Email: $email 
 			Telefono: $phone
-			Cargo: $cargo
+			rubro: $rubro
 			Consulta: $consulta 
 
 		
