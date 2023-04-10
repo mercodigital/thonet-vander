@@ -1,7 +1,7 @@
 @media only screen and (max-width: 767px) {
   /*----- Default CSS -----*/
   body {
-    font-size: 15px;
+    font-size: 23px;
   }
   .ptb-100 {
     padding-top: 50px;
@@ -46,7 +46,7 @@
     font-size: 16px;
   }
   .banner-content h1 {
-    font-size: 32px;
+    font-size: 72px;
     line-height: 54px;
   }
   .banner-content p {
@@ -262,7 +262,7 @@
     margin-top: 0;
   }
   .banner-area.two .banner-content h1 {
-    font-size: 34px;
+    font-size: 74px;
     line-height: 54px;
   }
   .banner-area.two .banner-shape-two img {
@@ -281,7 +281,8 @@
   /*-- End Banner CSS --*/
   /*-- Services --*/
   .section-title.two h2 {
-    font-size: 25px;
+    margin-top: 50px;
+    font-size: 35px;
   }
   /*-- End Services --*/
   /*-- Design --*/
@@ -761,7 +762,7 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /*----- Default CSS -----*/
   body {
-    font-size: 15px;
+    font-size: 23px;
   }
   .ptb-100 {
     padding-top: 70px;
@@ -1472,7 +1473,7 @@
 
 @media only screen and (max-width: 991px) {
   .mobile-nav .logo {
-    max-width: 85px;
+    max-width: 200px;
   }
   .mean-container .mean-bar {
     background-color: #ffec00;
@@ -1490,6 +1491,8 @@
     overflow-y: auto;
   }
   .side-nav {
+    background-color: #ffec00;
+    display: none;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 5px;
