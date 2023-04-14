@@ -29,20 +29,24 @@ This files table contents are outlined below>>>>>
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
 /*----- Default CSS -----*/
 
-@media (max-width: 1500px) { 
-
-
-html {
-  zoom: 75%;
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
+@media (max-width: 1500px) { 
+html {
+  zoom: 80%;
+
+
+}
 }
 body {
   font-family: "Rubik", sans-serif;
   color: #565353;
   background-color: #fff;
   font-size: 16px;
-
+  zoom: 80%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -302,7 +306,7 @@ button:focus {
 /*-- End Navbar --*/
 /*-- Banner --*/
 .banner-area {
-  height: 600px;
+  height: 800px;
   position: relative;
   overflow: hidden;
 }
@@ -652,6 +656,19 @@ b, strong {
   z-index: 1;
   height: 50px;
   line-height: 50px;
+}
+
+.cmn-btn2 {
+  display: inline-block;
+  color: #000;
+  background-color: #ffec00;
+  border-radius: 30px;
+  padding-right: 28px;
+  padding-left: 32px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  height: 50px;
 }
 
 
@@ -5529,6 +5546,10 @@ footer {
 
 .contact-area #contactForm .form-group .form-check-label a:hover {
   color: #82b440;
+}
+.formbox {
+  margin-top: 10px;
+  border-radius: 25px;
 }
 
 .contact-area #contactForm .form-group .form-control {
