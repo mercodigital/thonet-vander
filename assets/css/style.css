@@ -25,6 +25,16 @@ This files table contents are outlined below>>>>>
 ** - Preloader CSS
 ** - Go Top CSS
 */
+.imagen-rompe-linea {
+
+  margin-top: -300px;
+}
+@media (max-width: 1090px) { 
+.imagen-rompe-linea {
+
+  margin-top: 10px;
+}
+}
 @import url("https://fonts.googleapis.com/css2?family=Helvetica:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
 /*----- Default CSS -----*/
@@ -51,9 +61,9 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica", sans-serif;
-  color: #252525;
-  line-height: 0.9;
-  font-weight: 700;
+  color: #474747;
+  line-height: 1;
+  font-weight: 400;
 }
 
 p {
@@ -669,8 +679,35 @@ b, strong {
   overflow: hidden;
   z-index: 1;
   height: 50px;
+  transition: all .5s ease;
 }
 
+.cmn-btn2:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+font-weight: 900;
+}
+
+.cmn-btn3 {
+  display: inline-block;
+  color: #000;
+  background-color: #ffec00;
+  border-radius: 30px;
+  padding-right: 28px;
+  padding-left: 32px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  height: 50px;
+  line-height: 50px;
+  transition: all .5s ease;
+}
+
+.cmn-btn3:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+margin-bottom: 10px;
+
+}
 
 
 .cmn-btn:before {
@@ -2197,7 +2234,7 @@ footer {
 
 .banner-area.two {
   box-shadow: rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-  border: 1px solid black;
+
   background-image: unset;
   position: relative;
   background-size: cover;
@@ -2408,18 +2445,19 @@ footer {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .design-area .design-content ul li {
   list-style-type: none;
   display: block;
   font-weight: 400;
-  color: #221668;
+  color: #808080;
   font-size: 18px;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 50%;
           flex: 0 0 50%;
-  max-width: 50%;
+
   margin-bottom: 10px;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
@@ -2427,6 +2465,7 @@ footer {
 
 .design-area .design-content ul li:hover {
   padding-left: 10px;
+  color: #000;
 }
 
 .design-area .design-content ul li i {
@@ -5549,7 +5588,6 @@ footer {
 }
 .formbox {
   margin-top: 10px;
-  border-radius: 25px;
 }
 
 .contact-area #contactForm .form-group .form-control {

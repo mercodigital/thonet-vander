@@ -1,4 +1,8 @@
 @media only screen and (max-width: 767px) {
+
+  .banner-area {
+    padding: 20px;
+  }
   /*----- Default CSS -----*/
   body {
     font-size: 23px;
@@ -47,7 +51,7 @@
   }
   .banner-content h1 {
     font-size: 72px;
-    line-height: 54px;
+    line-height: 64px;
   }
   .banner-content p {
     font-size: 16px;
@@ -263,7 +267,7 @@
   }
   .banner-area.two .banner-content h1 {
     font-size: 74px;
-    line-height: 54px;
+    line-height: 64px;
   }
   .banner-area.two .banner-shape-two img {
     position: relative;
@@ -1029,7 +1033,7 @@
   }
   .banner-area.two .banner-content h1 {
     font-size: 34px;
-    line-height: 54px;
+    line-height: 64px;
   }
   .banner-area.two .banner-shape-two img {
     position: relative;
