@@ -1837,6 +1837,13 @@ margin-bottom: 10px;
 .partner-area {
   padding-top: 50px;
   padding-bottom: 50px;
+  margin-bottom: 100px;
+}
+
+.nomargin {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 0px!important;
 }
 
 .partner-area .partner-item {
@@ -1844,12 +1851,12 @@ margin-bottom: 10px;
 }
 
 .partner-area .partner-item:hover img {
-  -webkit-transform: translate(5px, 0);
-          transform: translate(5px, 0);
+  -webkit-transform: translate(5px, 50px);
+          transform: translateX(10px)
 }
 
 .partner-area .partner-item img {
-width: 55%;
+width: 76%;
 aspect-ratio: 3/2;
 object-fit: contain;
 margin-left: 15%;

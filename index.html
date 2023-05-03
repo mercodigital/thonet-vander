@@ -57,7 +57,7 @@
         <div class="navbar-area fixed-top">
             <!-- Menu For Mobile Device -->
             <div class="mobile-nav">
-                <a href="sass.html" class="logo">
+                <a href="index.html" class="logo">
                     <img src="assets/img/logo.png" alt="Logo">
                 </a>
             </div>
@@ -66,7 +66,7 @@
             <div class="main-nav two">
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="sass.html">
+                        <a class="navbar-brand" href="index.html">
                             <img src="assets/img/logo.png" alt="Logo" style="zoom: 90%">
                         </a>
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
@@ -117,7 +117,7 @@
                 <div class="d-table-cell">
                     <div class="container-fluid">
                         <div class="banner-content">
-                            <h1>Lleva <br>  <strong> Thonet & Vander </strong>  <br> a tu país.</h1>
+                            <h1>Lleva <br>  <strong> Thonet & Vander</strong>  <br> a tu país.</h1>
                             <p style="font-size: 17pt">Conviértete  en  <strong> distribuidor oficial </strong>
                                 de la marca número 1 de home audio tech del mundo.</p>
                             <div class="banner-btn">
@@ -185,9 +185,9 @@
                         <div class="design-content">
                             <div class="section-title two">
                                 <h2>Ser <strong>parte</strong> de <strong>T&V®</strong> es... </h2>
-                               <!--  <p style="margin-top: 50px;">Brindamos un apoyo integral para el comercio electrónico. Nuestro equipo está a tu disposición para asesorarte sobre gamas de productos adaptados a tu público objetivo, una biblioteca de contenidos en línea para distribuidores y asesoramiento sobre campañas para el comercio virtual. También ofrecemos recursos digitales como Landing Page y Eshop.</p> -->
+                                <p style="margin-top: 50px;">Somos una marca alemana líder en audio, reconocida por la calidad de sonido, el diseño y su funcionalidad para el entretenimiento, la vida al aire libre y el uso profesional. Nuestros equipos combinan tecnología, robustez e innovación con una óptima relación calidad-precio y bajo los más altos estándares de producción. Buscamos socios con los cuales compartir una visión de desarrollo sostenido, mejora continua y una potente cadena de valor.</p> 
                             </div>
-                            <ul>
+                            <!-- <ul>
                                 <li>
                                     <i class="flaticon-checkmark"></i>
                                     Contar con Soporte para Ecommerce                                </li>
@@ -204,16 +204,19 @@
                                     <i class="flaticon-checkmark"></i>
                                     Recursos Digitales: Landing + Eshop                                </li>
                                
-                            </ul>
+                            </ul> -->
+                            <a href="#Contacto" class="cmn-btn3" style="margin-top: 20px; color:black; zoom: 120%; animation: pulse 1s infinite;">
+                                Estoy Interesado
+                                <i class='bx bx-plus'></i>
+                            </a>
                             <div class="side-nav">
                             
-                                <a href="#Contacto" class="cmn-btn3" style="margin-top: 20px; color:black; zoom: 120%; animation: pulse 1s infinite;">
-                                    Estoy Interesado
-                                    <i class='bx bx-plus'></i>
-                                </a>
+                               
                             </div>
                         </div>
+
                     </div>
+                    
                     <div class="col-lg-6">
                         <div class="design-img imagen-rompe-linea" >
                             <img src="assets/img/compo2.png" alt="Design">
@@ -287,12 +290,12 @@
                 <div class="video-img" >
                     <div class="video-main"style="border-radius: 100px;">
                     
-                        <iframe  style="border-radius: 30px; border: 10px solid #252525" width="100%" height="700px" src="https://www.youtube-nocookie.com/embed/zdbeyr451BA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe  style="border-radius: 10px; border: 5px solid #252525" width="100%" height="700px" src="https://www.youtube-nocookie.com/embed/zdbeyr451BA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
-                    <div class="video-shape">
+                   <!--  <div class="video-shape">
                         <img src="assets/img/it-startup/video-shape1.png" alt="Shape">
                         <img src="assets/img/it-startup/video-shape2.png" alt="Shape">
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -347,7 +350,7 @@
                                          <h2 style="font-weight: 50;">Quiero ser <br>  <strong style="color: #ffec00;"> distribuidor</strong> de <br> <strong> Thonet & Vander</strong></h2>
                                      </div>
                                      <div class="col-md-6" >
-                                        <h2 style="text-align: left; line-height: 20px; font-weight: 100; font-size: 18pt;vertical-align: bottom; margin-top: 50px;">Dejanos tus datos para ponernos en Contacto.</h2>
+                                        <h2 style="text-align: left; line-height: 20px; font-weight: 100; font-size: 18pt;vertical-align: bottom; margin-top: 50px;">Déjanos tus datos para ponernos en contacto.</h2>
                                     </div>
                                 </div>
                             </div>
@@ -368,11 +371,35 @@
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
-            
-                                    <div class="col-sm-6 col-lg-6 formbox">
+                                    <div class="col-sm-2 col-lg-2 formbox">
                                         <div class="form-group">
 
-                                            <input type="text" name="phone" id="phone" placeholder="Telefono" required data-error="Please enter your number" class="form-control">
+                                            <select name="pais" id="pais" class="form-control" placeholder="Rubro de Negocio" required >
+                                                <option value="null" selected="true" disabled="disabled">▼ País</option>
+                                                <option value="+54" >🇦🇷 +54</option>
+    <option value="+591">🇧🇴 +591</option>
+    <option value="+56">🇨🇴 +57</option>
+    <option value="+506">🇨🇷 +506</option>
+    <option value="+53">🇨🇺 +53</option>
+    <option value="+1">🇩🇴 +1</option>
+    <option value="+593">🇪🇨 +593</option>
+    <option value="+34">🇪🇸 +34</option>
+    <option value="+502">🇬🇹 +502</option>
+    <option value="+504">🇭🇳 +504</option>
+    <option value="+52">🇲🇽 +52</option>
+    <option value="+505">🇳🇮 +505</option>
+    <option value="+507">🇵🇦 +507</option>
+    <option value="+1">🇵🇷 +1</option>
+    <option value="+595">🇵🇾 +595</option>
+
+                                            </select>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-lg-4 formbox">
+                                        <div class="form-group">
+
+                                            <input type="text" name="phone" id="phone" placeholder="Teléfono" required data-error="Please enter your number" class="form-control">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
@@ -381,7 +408,7 @@
                                         <div class="form-group">
 
                                             <select name="rubro" id="rubro" class="form-control" placeholder="Rubro de Negocio" required >
-                                                <option value="null" selected="true" disabled="disabled">Rubro de Negocio</option>
+                                                <option value="null" selected="true" disabled="disabled">▼ Rubro de Negocio</option>
                                                 <option value="Importador">Importador</option>
                                                 <option value="Distribuidor">Distribuidor</option>
                                                 <option value="Representante">Representante</option>
@@ -565,7 +592,7 @@
                                 <li>Parlantes</li>
                             </ul>
                             <h3>
-                                <a href="blog-details.html">¿Qué Es La Respuesta De Frecuencia De Un Parlante?</a>
+                                <a href="https://thonet-vander.com/ar/que-es-la-respuesta-de-frecuencia-de-un-parlante/">¿Qué Es La Respuesta De Frecuencia De Un Parlante?</a>
                             </h3>
                             <p>Al momento de evaluar la compra de tus parlantes, sea que estés buscando parlantes 2.0, parlantes 2.1. barras de sonido, home theater 5.1 o parlantes portátiles. </p>
                             <ul class="bottom">
@@ -582,7 +609,7 @@
         <a name="Partners"></a>
 
         <!-- Partner -->
-        <div class="partner-area" style="background-color: rgb(43, 43, 43);">
+        <div class="partner-area nomargin" style="background-color: rgb(43, 43, 43);">
             <div class="container-fluid p-0">
                 <div class="partner-slider owl-theme owl-carousel">
                     <div class="partner-item">
@@ -637,7 +664,7 @@
                     <div class="col-sm-6 col-lg-4">
                         <div class="footer-item">
                             <div class="footer-logo">
-                                <a href="sass.html">
+                                <a href="index.html">
                                     <img src="assets/img/logo-two.png" alt="Logo">
                                 </a>
                                 <p>Trabajamos para ofrecerte los mejores altavoces que hayas escuchado, con los mejores diseños y la última tecnología. Solo para #soundLovers!</p>
